@@ -1,0 +1,30 @@
+def add_num(num1, num2):
+	return num1 + num2
+	
+def subtract_num(num1, num2):
+	return num1 - num2
+	
+def multiply_num(num1, num2):
+	return num1 * num2
+		
+def divide_num(num1 , num2):
+	return num1 / num2
+
+num1 = int(input("Input a number"))
+num2 = int(input("input a number"))
+
+print("Please enter a 1 to add, please enter a 2 to subtract, please enter 3 to multiply, enter 4 to divide")
+num3 = int(input())
+
+if num3 == 1:
+	result = add_num(num1, num2)
+	print("Your two number added together are" + str(result))
+elif num3 == 2:
+	result = subtract_num(num1, num2)
+	print("Your two number subtract together are" + str(result))
+elif num3 == 3:
+	result = multiply_num(num1, num2)
+	print("Your two number multiply together are" + str(result))
+elif num3 == 4:
+	result = divide_num(num1, num2)
+	print("Your two number divide together are" + s
